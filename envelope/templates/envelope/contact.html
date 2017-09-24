@@ -1,0 +1,10 @@
+{% extends "userprofiles/includes/_base_ui.html" %}
+{% load static %}
+
+
+{% load envelope_tags %}
+
+{% block ui_content %}
+    <h3>Please send us your feedback here:<br/></h3>
+    {% render_contact_form %}
+{% endblock %}

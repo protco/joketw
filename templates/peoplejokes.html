@@ -1,0 +1,5 @@
+{% extends '__base.html' %}
+
+{% block content %}
+     {% include "includes/_jokes.html" with jokelist=people_joke  joke_title='People jokes'%}
+{% endblock %}

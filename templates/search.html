@@ -1,0 +1,9 @@
+{% extends '__base.html' %}
+
+{% load static %}
+{% load ratings %}
+
+{% block content %}
+     {% include "includes/_jokes.html" with jokelist=jokes joke_title='You search found the following jokes' %}
+{% endblock %}
+

@@ -1,0 +1,14 @@
+{% extends "__base.html" %}
+{% load i18n avatar_tags %}
+
+{% block title %}Create Joke{% endblock %}
+
+{% block content %}
+    {% include "userprofiles/includes/_navbar_ui.html" %}
+    <h3>Please keep the identity of this joke:</h3>
+    <form class='form {% if form_class %}{{ form_class }}{% endif %}' method='POST' action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+{% endblock content %}

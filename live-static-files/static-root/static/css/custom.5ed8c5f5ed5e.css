@@ -1,0 +1,148 @@
+* {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    display: block;
+    margin-top: 1.0em;
+    margin-bottom: 1.0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#header {
+    background-color: pink;
+    padding: 10px;
+    margin-top: 1.0em;
+    margin-bottom: 1.0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#container {
+    background-color: white;
+    padding: 0px;
+    position: relative;
+}
+
+#navbar_top {
+    font-size: 140%;
+    background-color: #ffd800;
+    border-color: white;
+    margin: 0px;
+}
+
+#content {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+#postarea {
+    text-align: left;
+    font-size: 120%;
+}
+
+#main {
+    width: 70%;
+    background-color: #fffec4;
+    margin-top: 5;
+    padding:5;
+}
+
+#main ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    margin: 5px;
+}
+
+#navbar_left {
+    width: 15%;
+}
+
+#navbar_right {
+    width: 15%;
+}
+
+
+#footer {
+  clear: both;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+
+.jokes_display .title {
+    color: green;
+    text-align: center;
+    font-size: 150%;
+}
+
+.jokes_display .joke {
+    color: blue;
+    text-align: left;
+    font-size: 130%;
+}
+
+.jokes_display .rating {
+    color: black;
+    text-align: center;
+    font-size: 110%;
+}
+
+#joketable th {
+    text-align: left;
+}
+
+.termofuse .title {
+    color: green;
+    text-align: center;
+    font-size: 150%;
+}
+
+.termofuse .terms {
+    color: blue;
+    text-align: left;
+    font-size: 110%;
+    display:block;
+}
+
+/* user interface */
+.nav.nav-pills.nav-stacked {
+     text-align: left;
+}
+
+#ui {
+    display: flex;
+}
+
+#ui_navbar {
+
+
+}
+
+#ui_main {
+
+}
+
+
+
+

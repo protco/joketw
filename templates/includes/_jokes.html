@@ -1,0 +1,24 @@
+{% load static %}
+{% load ratings %}
+
+<!-- common display pattern for a list of regular jokes -->
+<div class="jokes_display">
+    {% if jokelist %}
+        <div class="title">{{joke_title}}</div>
+            {% for joke in jokelist %}
+                <ul>
+                    <table id= "joketable" style="width:100%" cellspacing="10" cellpadding="0">
+                        <th width="50">
+                            <div class="rating">{% ratings joke %}</div>
+                        </th>
+                        <th width="450">
+                            <div class="joke">{{joke.content}}</div>
+                        </th>
+                    </table>
+                </ul>
+            {% endfor %}
+        </div>
+    {% else %}
+         <h3>No such jokes in our database yet....</h3>
+    {% endif %}
+</div>

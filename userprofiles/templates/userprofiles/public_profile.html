@@ -1,0 +1,9 @@
+{% extends '__base.html' %}
+{% load static %}
+{% load ratings %}
+
+{% block content %}
+    <h3>{{user.username}}</h3>
+    {% include "includes/_user_jokes.html" with jokelist=user_jokes user=user userprofile=userprofile  %}
+{% endblock %}
+

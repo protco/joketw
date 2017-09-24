@@ -1,0 +1,6 @@
+{% extends '__base.html' %}
+
+{% block content %}
+     {% include "includes/_user_jokes.html" with jokelist=newest_jokes joke_title='Newest jokes contributed by JT users' %}
+     {% include "includes/_jokes.html" with jokelist=top_ten  joke_title='Top rated jokes'%}
+{% endblock %}

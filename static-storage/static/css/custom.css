@@ -1,0 +1,165 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Joke display main page */
+.container {
+    background-color: white;
+    position: relative;
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+}
+
+.header {
+    font-size: 180%;
+    text-align: center;
+    color: green;
+    background-color: white;
+    margin-top: 0.5em;
+}
+
+#navbar_top {
+    color: blue;
+    font-size: 110%;
+    margin: 0px;
+}
+
+#content {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+#main {
+    width: 80%;
+
+    margin-top: 5;
+    padding:5;
+}
+
+#main ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    margin: 5px;
+}
+
+#navbar_left {
+    width: 10%;
+}
+
+#navbar_right {
+    width: 10%;
+}
+
+
+#footer {
+  clear: both;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+
+.jokes_display .title {
+    color: green;
+    text-align: center;
+    font-weight: normal;
+    font-size: 150%;
+}
+
+.jokes_display .rating {
+    color: grey;
+    font-weight: normal;
+    text-align: center;
+    font-size: 100%;
+}
+
+.jokes_display .joke {
+    color: blue;
+    font-weight: bold;
+    text-align: left;
+    font-size: 120%;
+}
+
+.jokes_display .time {
+    color: grey;
+    font-weight: normal;
+    text-align: left;
+    font-size: 100%;
+}
+
+#joketable th {
+    text-align: left;
+}
+
+#termofuse #title {
+    color: green;
+    text-align: center;
+    font-size: 150%;
+}
+
+#termofuse #terms {
+    color: blue;
+    text-align: left;
+    font-size: 110%;
+    display:block;
+}
+
+#resources #title {
+    color: green;
+    font-size: 150%;
+}
+
+#resources #content {
+    color: blue;
+    text-align: left;
+    font-size: 110%;
+    display:block;
+}
+
+
+/* user interface */
+
+#ui {
+    display: flex;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#ui_navbar {
+    font-size: 120%;
+}
+
+#ui_main {
+    text-align: left;
+}
+
+#postarea {
+    text-align: left;
+    font-size: 120%;
+}
+
+
+

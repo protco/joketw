@@ -1,0 +1,12 @@
+{% extends "userprofiles/includes/_base_ui.html" %}
+
+{% block title %}Create Joke{% endblock %}
+
+{% block ui_content %}
+    <h3>Please craft your joke here:</h3>
+    <form class='form {% if form_class %}{{ form_class }}{% endif %}' method='POST' action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-success">Save</button>
+    </form>
+{% endblock ui_content %}
