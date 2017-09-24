@@ -1,6 +1,5 @@
 * {
     font-family: "Roboto", sans-serif;
-    text-align: center;
     margin:0;
     padding:0;
 }
@@ -13,35 +12,33 @@ html, body {
 
 hr {
     display: block;
-    margin-top: 1.0em;
-    margin-bottom: 1.0em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
 }
 
-#header {
-    background-color: pink;
-    padding: 10px;
-    margin-top: 1.0em;
-    margin-bottom: 1.0em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-}
-
-#container {
+/* Joke display main page */
+.container {
     background-color: white;
-    padding: 0px;
     position: relative;
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+}
+
+.header {
+    font-size: 180%;
+    text-align: center;
+    color: green;
+    background-color: white;
+    margin-top: 0.5em;
 }
 
 #navbar_top {
-    font-size: 140%;
-    background-color: #ffd800;
-    border-color: white;
+    color: blue;
+    font-size: 110%;
     margin: 0px;
 }
 
@@ -51,14 +48,9 @@ hr {
     display: flex;
 }
 
-#postarea {
-    text-align: left;
-    font-size: 120%;
-}
-
 #main {
-    width: 70%;
-    background-color: #fffec4;
+    width: 80%;
+
     margin-top: 5;
     padding:5;
 }
@@ -71,11 +63,11 @@ hr {
 }
 
 #navbar_left {
-    width: 15%;
+    width: 10%;
 }
 
 #navbar_right {
-    width: 15%;
+    width: 10%;
 }
 
 
@@ -93,56 +85,81 @@ hr {
 .jokes_display .title {
     color: green;
     text-align: center;
+    font-weight: normal;
     font-size: 150%;
+}
+
+.jokes_display .rating {
+    color: grey;
+    font-weight: normal;
+    text-align: center;
+    font-size: 100%;
 }
 
 .jokes_display .joke {
     color: blue;
+    font-weight: bold;
     text-align: left;
-    font-size: 130%;
+    font-size: 120%;
 }
 
-.jokes_display .rating {
-    color: black;
-    text-align: center;
-    font-size: 110%;
+.jokes_display .time {
+    color: grey;
+    font-weight: normal;
+    text-align: left;
+    font-size: 100%;
 }
 
 #joketable th {
     text-align: left;
 }
 
-.termofuse .title {
+#termofuse #title {
     color: green;
     text-align: center;
     font-size: 150%;
 }
 
-.termofuse .terms {
+#termofuse #terms {
     color: blue;
     text-align: left;
     font-size: 110%;
     display:block;
 }
 
-/* user interface */
-.nav.nav-pills.nav-stacked {
-     text-align: left;
+#resources #title {
+    color: green;
+    font-size: 150%;
 }
+
+#resources #content {
+    color: blue;
+    text-align: left;
+    font-size: 110%;
+    display:block;
+}
+
+
+/* user interface */
 
 #ui {
     display: flex;
+    border-style: inset;
+    border-width: 1px;
 }
 
 #ui_navbar {
-
-
+    font-size: 120%;
 }
 
 #ui_main {
-
+    text-align: left;
 }
 
+#postarea {
+    text-align: left;
+    font-size: 120%;
+}
 
 
 

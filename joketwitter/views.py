@@ -33,7 +33,6 @@ def randomjoke(request):
     count = Joke.objects.count()
     rand_ids = sample(range(1, count), 50)
     random_five = Joke.objects.filter(id__in=rand_ids)
-    print(count, len(random_five), rand_ids)
     context = {'title': 'Random Jokes', 'random_five': random_five}
     return render(request, 'randomjokes.html', context)
 
@@ -78,7 +77,7 @@ class SearchView(StrongholdPublicMixin, View):
         return render(request, "search.html", context)
 
 
-class ProfileJokeView(ListView):
+class ProfileJokeView(StrongholdPublicMixin, ListView):
     template_name = 'jokes/profilejokes.html'
     model = JokeUser
 
