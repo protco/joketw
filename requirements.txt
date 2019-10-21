@@ -21,7 +21,7 @@ django-stronghold==0.2.9
 djangorestframework==3.6.4
 gunicorn==19.7.1
 idna==2.6
-nltk==3.2.4
+nltk==3.4.5
 oauthlib==2.0.2
 olefile==0.44
 Pillow==4.2.1
