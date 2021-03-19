@@ -18,7 +18,7 @@ django-model-utils==3.0.0
 django-search-views==0.3.7
 django-star-ratings==0.5.6
 django-stronghold==0.2.9
-djangorestframework==3.6.4
+djangorestframework==3.11.2
 gunicorn==19.7.1
 idna==2.6
 nltk==3.2.4
